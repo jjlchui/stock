@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html> 
+    <head>
+        {% if title %}
+            <title> Stock-{{title}} </title>
+        {% else %}
+            <title> Stock </title>
+        {% endif %} 
+
+        <link rel="stylesheet" href="/static/css/bootstrap.css">
+        <script src="/static/js/bootstrap.js"></script>
+        <script src="/static/js/bootstrap.bundle.js"></script>
+        <script src="/static/js/jquery-3.6.0.js"></script>   
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light" style="background-color:#D7D5D5;">
+            <a class="navbar-brand" href="/">Hi, I love Money</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-item nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+                <a style="color:red;" class="nav-item nav-link" href="/mamacd/">ma&macd (mamacd)</a>
+                <a style="color:red;" class="nav-item nav-link" href="/maxminline/">maxminline (Max_Min_line)</a>
+                <a style="color:red;" class="nav-item nav-link" href="/ma/">ma_test (simple_gui)</a>
+                <a style="color:red;" class="nav-item nav-link" href="/macd/">macd test(copymacd)</a>
+                <a class="nav-item nav-link" href="/test/">quant test</a>
+                <a class="nav-item nav-link" href="/getdata/">get data</a>
+                <a class="nav-item nav-link" href="/regression/">rolling OLS (RegressionRoll)</a>
+                <a class="nav-item nav-link" href="/reinforce_stock/">portfolio</a>
+              </div>
+            </div>
+          </nav>
+          
+        <div class="container">       
+            <br> 
+            <br> 
+            <h4>Money lover $$$</h4>
+            <br> 
+            <br> 
+        <div>
+        
+        {% block body %}
+        
+        
+        
+        
+        {% endblock %}
+        
+            <hr>
+            <footer>
+                Developed by <a href="http://jham.com.hk">JHAM</
+            </footer>
+        </div>
+    </body>
+</html>

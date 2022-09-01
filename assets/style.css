@@ -1,0 +1,377 @@
+Imgbody {
+  margin: 0;
+  background-color: rgb(255, 255, 255, 0.8)
+}
+
+.title_image {
+  display: flex;
+  flex-direction: row;
+  margin-top: 2px;
+}
+
+.title {
+  display: flex;
+  flex-direction: row;
+  white-space: pre;
+  font-family: "sans-serif";
+}
+
+
+.logo_title {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  flex: 7;
+  margin-left: 10px;
+  margin-top: 3px;
+}
+
+
+
+.stock_label{
+  display: flex;
+  flex-direction: row;
+  margin-top: 5px;
+}
+
+.stock_score{
+  display: flex;
+  flex-direction: row;
+  white-space: pre;
+  margin-top: 11px;
+  
+}
+
+.stock_ave{
+  display: flex;
+  flex-direction: row;
+  white-space: pre;
+  margin-top: 11px;
+}
+
+.stock_score_label{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.buy_sell_b{
+  display: flex;
+  flex-direction: row;
+  margin-left: 10px;
+}
+
+.buy_sell_s{
+  display: flex;
+  flex-direction: row;
+  margin-left: 40px;
+}
+
+.buy_sell_p{
+  display: flex;
+  flex-direction: row;
+  margin-left: 70px;
+}
+
+.profit_img{
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+}
+
+.stock_score_container{
+  color: white;
+  flex-direction: row;
+  display: flex;
+  gap: 5px;
+  flex: 15;
+  margin-left: 0px;
+  margin-top: 3px;
+
+}
+
+.table_width {
+  background-color: rgb(204, 204, 204);
+  width: 700px;
+  height: 400px;
+  border-radius: 0px;
+  box-shadow: 0px 0px 1px 0px rgb(88, 102, 126);
+}
+
+.table_chart_container {
+
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+
+}
+
+.table_style {
+    margin-top: 50px;
+    width: 100%;
+}
+
+.table_style Thead, .table_style Th{
+    border: 1px solid #dddd;
+}
+
+.adjust_date_time{
+  display: flex;
+  flex-direction: row;
+  white-space: pre;
+  margin-right: 10px;
+  margin-top: 11px;
+  flex: 1;
+}
+
+.title_date_time_container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  background-color: rgb(23, 25, 26);
+  top: 0;
+  width: 100%;
+  position: fixed;
+}
+
+.ticket_symbol{
+  display: flex;
+  flex-direction: row;
+  gap: 150px;
+  flex: 7;
+  margin-left: 10px;
+  margin-top: 50px;
+
+}
+
+
+.dropdown_ticker{
+    background-color: rgb(50, 53, 70);
+    width:25%;
+    margin: 5px;
+    margin-left : 5px;
+    border-radius:8px;
+    box-shadow: 0px 0px 1px 0px rgb(88, 102,102)
+    white-space: pre;
+
+}
+
+.symbol{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 20px;
+
+}
+
+
+
+.btn{
+    background-color: #f1f1f1;
+}
+
+
+
+.button_container{
+  margin-top : 40px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  background-color: rgb(23, 25, 26);
+  top: 0;
+  width: 100%;
+  position: fixed;
+
+}
+
+
+
+.chart_width{
+  background-color: rgb(50, 53, 70);
+  margin-left: 0px;
+  width: 1200px;
+  height: 400px;
+  border-radius: 2px;
+  box-shadow: 0px 0px 1px 0px rgb(88, 102, 126);
+}
+
+.macd_width{
+  background-color: rgb(50, 53, 70);
+  width: 1200px;
+  height: 200px;
+  border-radius: 2px;
+  box-shadow: 0px 0px 1px 0px rgb(88, 102, 126);
+}
+
+.rsi_width{
+  background-color: rgb(50, 53, 70);
+  width: 1200px;
+  height: 200px;
+  border-radius: 2px;
+  box-shadow: 0px 0px 1px 0px rgb(88, 102, 126);
+}
+
+.chart_container{
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  flex-wrap: wrap;
+  gap:20px;
+}
+
+
+
+
+.layout_chart{
+    border-radius: 8px;
+    color: #604C7F, 
+    border: 2px red solid,
+    box-shadow: 0px 0px 1px 0px rgb(96,76,127);
+}
+
+.coin {
+  display: flex;
+  flex-direction: row;
+  margin-top: 6px;
+}
+
+
+.coin_price {
+  display: flex;
+  flex-direction: row;
+}
+
+.price_indicator {
+  display: flex;
+  flex-direction: row;
+  margin-top: 14px;
+}
+
+.adjust_price_and_coin {
+  display: flex;
+  flex-direction: row;
+  gap: 2px;
+}
+
+.right_price_value {
+  display: flex;
+  flex-direction: row;
+  margin-top: 14px;
+}
+.adjust_price_indicator_and_right_value {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  margin-top: -7px;
+}
+.adjust_price_and_right_value {
+  display: flex;
+  flex-direction: row;
+  gap: 2px;
+  margin-top: -7px;
+}
+
+.coin_price_column {
+  display: flex;
+  flex-direction: column;
+}
+
+.price_difference {
+  display: flex;
+  flex-direction: row;
+}
+
+.difference_indicator {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+}
+
+.difference_row {
+  display: flex;
+  flex-direction: row;
+  gap: 2px;
+}
+
+.cap_price_value {
+  display: flex;
+  flex-direction: row;
+  margin-top: 7px;
+}
+
+.diff_cap_row {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  margin-top: -16px;
+}
+
+.zero_diff_row_cap {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  margin-top: -16px;
+}
+
+.table_style {
+   width: 100%;
+}
+
+.table_style Thead, .table_style Th, .table_style Td {
+   border: 1px solid #dddd;
+}
+
+.table_style Thead {
+   background-color: rgb(23, 25, 26);
+   color: white;
+}
+
+.image {
+  display: flex;
+  flex-direction: row;
+}
+
+.logo_text {
+  display: flex;
+  flex-direction: row;
+  color: white;
+  margin-top: 5px;
+}
+
+.logo_image {
+  display: flex;
+  flex-direction: row;
+  gap: 3px;
+}
+
+
+
+.text_value {
+  display: flex;
+  flex-direction: row;
+}
+
+.numeric_value {
+  display: flex;
+  flex-direction: row;
+}
+
+.adjust_text_and_numeric {
+  display: flex;
+  flex-direction: row;
+  gap: 7px;
+}
+
+.time_value {
+  display: flex;
+  flex-direction: row;
+}
+
+.adjust_text_numeric_and_time {
+  display: flex;
+  flex-direction: row;
+  gap: 2px;
+  justify-content: center;
+  margin-top: -395px;
+}
+
